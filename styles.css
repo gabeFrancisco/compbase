@@ -2,10 +2,15 @@
     box-sizing: border-box;
     margin: 0;
     font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header{
     padding: 1rem 2rem;
     border: 3px #f2f2f2 double;
-    background: linear-gradient(to right, #3570b4, #80b1e9)
+    background: linear-gradient(to right, #3570b4, #80b1e9);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
 }
