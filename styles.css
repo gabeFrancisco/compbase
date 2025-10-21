@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 16px;
+}
+
+header{
+    padding: 1rem 2rem;
+    border: 3px #f2f2f2 double;
+    background: linear-gradient(to right, #3570b4, #80b1e9)
+}
