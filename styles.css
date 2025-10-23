@@ -7,10 +7,33 @@
 
 header{
     padding: 1rem 2rem;
-    border: 3px #f2f2f2 double;
-    background: linear-gradient(to right, #3570b4, #80b1e9);
+    background: linear-gradient(to right, #1255a1, #6f99c8);
+    border-bottom: 3px solid #bbb;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     color: #fff;
+}
+
+#header-container{
+    display: flex;
+    flex-direction: row;
+}
+
+#header-menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#header-menu li{
+    margin-right: 1rem;
+}
+
+#header-menu li a{
+    color: #fff;
+}
+
+#header-menu li a:hover{
+    color: #ccc;
 }
